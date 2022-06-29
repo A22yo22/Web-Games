@@ -16,3 +16,9 @@
     position: relative;
     top: 150px;
 }
+
+#block {
+    width: 20px;
+    height: 10px;
+    background-color: blue;
+}
