@@ -18,7 +18,7 @@
 }
 
 .amimate {
-    animation: jump 500ms infinite;
+    animation: jump 500ms;
 }
 
 @keyframes jump {
