@@ -17,8 +17,28 @@
     top: 150px;
 }
 
+.amimate {
+    animation: jump 500ms infinite;
+}
+
+@keyframes jump {
+    0%{top: 150px;}
+    30%{top: 100px;}
+    70%{top: 100px;}
+    100%{top: 150px;}
+}
+
 #block {
     width: 20px;
-    height: 10px;
-    background-color: blue;
+    height: 20px;
+    background-color: yellowgreen;
+    position: relative;
+    top: 130px;
+    left: 480px;
+    animation: block 1s infinite linear;
+}
+
+@keyframes block {
+    0%{left: 480px;}
+    100%{left: -40px;}
 }
