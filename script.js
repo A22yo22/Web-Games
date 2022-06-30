@@ -22,6 +22,6 @@ var checkDead = setInterval(function(){
         block.style.animation = "none";
         block.style.display = "none";
 
-        alert("you lose.")
+        alert("you lose.");
     }
 },10);
